@@ -32,10 +32,10 @@ function ScrollContainer() {
     <div>
       <div>
         <img src={Menu} alt="" style={{ width: "100%" }} />
-        <img src={slide1} alt=""  />
-        <img src={slide2} alt="" />
-        <img src={slide3} alt="" />
-        <img src={slide4} alt="" />
+        <img src={slide1} alt=""  style={{height:"100%",width:"100%", }}/>
+        <img src={slide2} alt="" style={{height:"100%",width:"100%", }}/>
+        <img src={slide3} alt="" style={{height:"100%",width:"100%", }}/>
+        <img src={slide4} alt="" style={{height:"100%",width:"100%", }}/>
       </div>
     
 
