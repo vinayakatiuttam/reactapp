@@ -1,0 +1,12 @@
+.App {
+    font-family: sans-serif;
+    height: 100vh;
+  }
+  .scroll-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .scroll-content {
+    display: inline-block;
+  }
