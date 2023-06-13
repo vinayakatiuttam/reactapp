@@ -31,18 +31,18 @@ function ScrollContainer() {
   return (
     <div>
       <div>
-        <img src={Menu} alt="" style={{ width: "100%" }} />
-        <img src={slide1} alt=""  style={{height:"100%",width:"100%", }}/>
-        <img src={slide2} alt="" style={{height:"100%",width:"100%", }}/>
-        <img src={slide3} alt="" style={{height:"100%",width:"100%", }}/>
-        <img src={slide4} alt="" style={{height:"100%",width:"100%", }}/>
+        <img src={Menu} alt="" style={{height:"100%",width:"100%"}} />
+        <img src={slide1} alt="" style={{height:"100%",width:"100%"}} />
+        <img src={slide2} alt="" style={{height:"100%",width:"100%"}}/>
+        <img src={slide3} alt="" style={{height:"100%",width:"100%"}}/>
+        <img src={slide4} alt="" style={{height:"100%",width:"100%"}}/>
       </div>
     
 
       <div className="scroll-container" ref={scrollContainerRef}  >
         <div className="scroll-content" >
           {/* <img src={Menu}alt="" style={{width:"100%"}}/> */}
-          <img src={slide5} alt=""  style={{height:"100%",width:"100%", }}/>
+          <img src={slide5} alt=""  style={{height:"100%",width:"100%" }}/>
           <img src={slide6} alt=""  style={{height:"100%",width:"100%"}}/>
           <img src={slide7} alt="" style={{height:"100%",width:"100%"}}/>
           <img src={slide8} alt="" style={{height:"100%",width:"100%"}}/>
