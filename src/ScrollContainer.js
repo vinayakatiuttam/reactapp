@@ -39,7 +39,7 @@ function ScrollContainer() {
       </div>
     
 
-      <div className="scroll-container" ref={scrollContainerRef} >
+      <div className="scroll-container" ref={scrollContainerRef}  >
         <div className="scroll-content" >
           {/* <img src={Menu}alt="" style={{width:"100%"}}/> */}
           <img src={slide5} alt=""  style={{height:"100%",width:"100%", }}/>
